@@ -1,0 +1,11 @@
+# IntelliJ
+/.idea/
+
+# JS Things
+/node_modules/
+
+# Rusty things
+/.cache/
+/target/
+**/*.rs.bk
+Cargo.lock

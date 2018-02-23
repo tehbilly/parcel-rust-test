@@ -1,0 +1,17 @@
+[package]
+name = "parcel-rust"
+version = "0.1.0"
+authors = ["William McGann <contact@williammcgann.com>"]
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+stdweb = "0.4.0"
+serde = { version = "1" }
+serde_json = { version = "1" }
+
+[profile.release]
+opt-level = 3
+lto = true
